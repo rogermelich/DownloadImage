@@ -31,4 +31,20 @@
         android:layout_margin="@dimen/fab_margin"
         android:src="@android:drawable/ic_dialog_email" />
 
+       <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:id="@+id/buttonDownload"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClick"/>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="450dp"
+            android:id="@+id/imatgeDescarregada"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
 </android.support.design.widget.CoordinatorLayout>
